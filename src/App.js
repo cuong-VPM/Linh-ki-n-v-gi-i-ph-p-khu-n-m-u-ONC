@@ -42,7 +42,7 @@ function HomePage({ setPage }) {
           </div>
         </div>
 
-        <div className="heroVisual">
+        <div className="heroVisual heroVisualThree">
           <div className="springShowcase swb">
             <div className="badgeTop heavy">SWB • Heavy Load</div>
             <img src="/spring-swb.png" alt="SWB spring" />
@@ -50,6 +50,10 @@ function HomePage({ setPage }) {
           <div className="springShowcase swl">
             <div className="badgeTop medium">SWL • Medium Load</div>
             <img src="/spring-swl.png" alt="SWL spring" />
+          </div>
+          <div className="springShowcase pinsShowcase">
+            <div className="badgeTop medium">Ejector Pins</div>
+            <img src="/pins-real.png" alt="Ejector pins" />
           </div>
         </div>
       </section>
@@ -82,8 +86,8 @@ function HomePage({ setPage }) {
           />
           <CoverCard
             title="Ejector Pins"
-            text="Nhóm chốt đẩy với hình kỹ thuật lớn, phù hợp cho phần tra cứu và giới thiệu."
-            image="/pins-diagram.png"
+            text="Nhóm chốt đẩy với ảnh thật sản phẩm để đồng bộ cùng SWB và SWL trên trang bìa."
+            image="/pins-real.png"
             label="Ejector Pins"
             tone="lightTone"
             onClick={() => setPage("pins")}
@@ -212,7 +216,7 @@ function PinsPage() {
           </p>
         </div>
         <div className="singleVisual">
-          <img src="/pins-diagram.png" alt="Pins diagram" />
+          <img src="/pins-real.png" alt="Ejector pins" />
         </div>
       </section>
 

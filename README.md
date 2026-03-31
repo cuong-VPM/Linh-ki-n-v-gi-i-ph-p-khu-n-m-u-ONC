@@ -1,3 +1,3 @@
 # ONC Pro Catalog Library
 
-Bản level pro: ảnh thật SWB và SWL lên trang bìa, card sản phẩm kiểu catalog.
+Đã đưa ảnh thật Ejector Pins lên trang bìa và card sản phẩm.
